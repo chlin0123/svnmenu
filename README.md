@@ -11,10 +11,10 @@ git clone https://github.com/chlin0123/svnmenu.git
 ### Quick Guide
 | Shortcut | Command                              |
 |----------|--------------------------------------|
-| ,gd      | svn diff                             |
-| ,gn      | svn annotate                         |
-| ,gl      | svn log                              |
-| ,gp      | svn diff HEAD^ (diff to the parent)  |
+| ,sd      | svn diff                             |
+| ,sn      | svn annotate                         |
+| ,sl      | svn log                              |
+| ,sp      | svn diff HEAD^ (diff to the parent)  |
 | q        | close the window                     |
 
 ### Windows
