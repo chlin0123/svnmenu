@@ -1017,7 +1017,7 @@ function! SVNdiff(...)
  difft
  let @z=bak
  unlet tmp file bak
- silent! nmap <unique> <buffer> q :bd<cr>:call SVNSwitchDiffMode()<cr>
+ silent! nmap <unique> <buffer> q :diffoff<cr>:bd<cr>:call SVNSwitchDiffMode()<cr>
 endfunction
 
 " diff to a specific revision
